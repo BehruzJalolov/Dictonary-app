@@ -1,3 +1,4 @@
+
 * {
     padding: 0;
     margin: 0;
@@ -160,6 +161,13 @@ ul {
 }
 .site-footer-h4 {
     color: #3a3a3a;
+}
+.menu {
+    display: block;
+    /* margin: auto; */
+    /* text-align: end; */
+    
+
 }
 
 
