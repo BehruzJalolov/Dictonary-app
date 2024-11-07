@@ -163,12 +163,67 @@ ul {
     color: #3a3a3a;
 }
 .menu {
-    display: block;
+    /* display: block; */
     /* margin: auto; */
     /* text-align: end; */
+    display: none;
+    /* display: flex;
+    justify-content: flex-end;
+    align-items: flex-end; */
     
 
 }
+/* Navbar container styling */
+.navbar {
+    background-color: #333;  /* Backgound color for the menu */
+    overflow: hidden;        /* Clear the float for items inside */
+    padding: 10px 0;
+    display: none;
+    
+}
+
+/* Style for list items */
+.navbar ul {
+    list-style-type: none;  /* Remove bullets */
+    margin: 0;
+    padding: 0;
+    display: flex;          /* Make it a flexbox for horizontal layout */
+    justify-content: center;/* Center the menu items */
+}
+
+/* Style for links */
+.navbar ul li {
+    margin: 0 20px;         /* Spacing between menu items */
+}
+
+.navbar ul li a {
+    color: white;           /* Text color */
+    text-align: center;
+    text-decoration: none;  /* Remove underline */
+    padding: 10px 15px;
+    font-size: 18px;
+    transition: background-color 0.3s ease;
+}
+
+/* Hover effect for links */
+.navbar ul li a:hover {
+    background-color: #575757; /* Change background on hover */
+    border-radius: 5px;        /* Rounded corners on hover */
+}
+
+/* Mobile responsive styling */
+@media screen and (max-width: 600px) {
+    .navbar ul {
+        flex-direction: column; /* Stack menu items vertically on smaller screens */
+        align-items: center;
+    }
+
+    .navbar ul li {
+        margin: 10px 0;
+    }
+}
+
+
 
 
 
