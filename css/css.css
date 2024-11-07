@@ -21,11 +21,13 @@ ul {
 .site-header {
     width: 100px;
     height: 70px;
-    /* position: relative; */
+    position: relative;
     
     /* margin-top: 30px; */
     /* position: relative; */
     margin-bottom: 10px;
+    display: flex;
+    /* justify-content: space-between; */
     
 }
 .container {
@@ -117,7 +119,7 @@ ul {
 .site-meaning {
     width: 650px;
     /* font-family:  sans-serif; */
-    font-family: sans-serif;
+    font-family: Serif;
 }
 .site-meaning-text {
     color: #3a3a3a
@@ -189,6 +191,17 @@ ul {
     background-color: red;
     color: white;
 }
+/* .nav {
+    position: absolute;
+    margin-left: -60px;
+} */
+.container {
+    
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+}
+
 
 
 
